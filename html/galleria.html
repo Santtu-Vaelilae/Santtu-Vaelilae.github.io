@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>Galleria</title>
+  <link rel="stylesheet" type="text/css" href="../styles/site.css">
+  <script src="scripts/myscript.js"></script>
+
+
+  <style>
+    div.gallery {
+    border: 1px solid #ccc;
+    }
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+
+</head>
+<body>
+  <header class="otsake">
+    <h1>Baltimore Blogi</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">KOTI</a></li>
+      <li><a href="blogi.html">BLOGI</a></li>
+      <li><a href="error.html">ARKISTO</a></li>
+      <li class="selected"><a href="">GALLERIA</a></li>
+    </ul>
+  </nav>
+
+  <h2>Kuvagalleria</h2>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/pagoda_kevat_med.jpg">
+        <img src="../images/pagoda_kevat_med.jpg" alt="Pagoda kevaalla" width="600" height="400">
+      </a>
+      <div class="desc">Pagoda kevaalla</div>
+    </div>
+  </div>
+
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/kirsikka_med.jpg">
+        <img src="../images/kirsikka_med.jpg" alt="Kirsikka" width="600" height="400">
+      </a>
+      <div class="desc">Kirsikka</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/hoods.jpg">
+        <img src="../images/hoods.jpg" alt="Hoodseja" width="600" height="400">
+      </a>
+      <div class="desc">Hoodseja</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/koronarekka_med.jpg">
+        <img src="../images/koronarekka_med.jpg" alt="koronarekka" width="600" height="400">
+      </a>
+      <div class="desc">"Koronarekka"</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/heppa_med.jpg">
+        <img src="../images/heppa_med.jpg" alt="Arabber" width="600" height="400">
+      </a>
+      <div class="desc">Arabber</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/kasset.jpg">
+        <img src="../images/kasset.jpg" alt="kasset" width="600" height="400">
+      </a>
+      <div class="desc">Kasset</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/kakka_med.jpg">
+        <img src="../images/kakka_med.jpg" alt="kakka" width="600" height="400">
+      </a>
+      <div class="desc">Kakka</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/pkulma.jpg">
+        <img src="../images/pkulma.jpg" alt="Puiston kulma" width="600" height="400">
+      </a>
+      <div class="desc">Puiston kulma</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/unkari.jpg">
+        <img src="../images/unkari.jpg" alt="kakka" width="600" height="400">
+      </a>
+      <div class="desc">Unkarilainen kirkko</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/smakko.jpg">
+        <img src="../images/smakko.jpg" alt="smakko" width="600" height="400">
+      </a>
+      <div class="desc">"Smakko"</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/lander.jpg">
+        <img src="../images/lander.jpg" alt="lander" width="600" height="400">
+      </a>
+      <div class="desc">Kuumodulli</div>
+    </div>
+  </div>
+
+ <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/high.jpg">
+        <img src="../images/high.jpg" alt="high" width="600" height="400">
+      </a>
+      <div class="desc">Highland Haus</div>
+    </div>
+  </div>
+
+   <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../images/riley.jpg">
+        <img src="../images/riley.jpg" alt="riley" width="600" height="400">
+      </a>
+      <div class="desc">Riley koiro</div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+<footer>
+    <p>&copy;2021, Santtu Valila @ Maria, All rights reserved! <br>
+      <a href="mailto:santtu.vaelilae@gmail.com">email me!</a>
+    </p>
+  </footer>
+
+</body>
+</html>

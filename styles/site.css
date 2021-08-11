@@ -1,0 +1,111 @@
+@font-face {
+	font-family: retrofunk;
+	src: url("fonts/Retrofunkscriptpersonaluse-v6XO.otf");
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #F1F1EF;
+	font-family: Verdana, "San Francisco", Tahoma, sans-serif;
+	font-size: medium;
+	line-height: 1.2;
+}
+
+section {
+	margin: 10px;
+	padding: 5px;
+}
+
+h1 {
+	font-family: retrofunk, Georgia, "Times New Roman", serif;
+	color: black;
+	font-size: 150%;
+}
+
+header.otsake h1 {
+	font-family: retrofunk, Georgia, "Times New Roman", serif;
+	color: #DF4601;
+	font-size: 185%;
+}
+
+header.otsake {
+	background-image: url("../images/natty_boh_web.jpg");
+	background-repeat: no-repeat;
+	padding: 2%;
+	text-align: center;
+	background-size: cover;
+
+}
+
+nav {
+	background-color: #DF4601;
+	margin: 10px;
+
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 5px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+nav a {
+	text-decoration: none;
+
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #000;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+nav ul li.selected {
+	background-color: #9e7c0c;
+}
+
+h2 {
+	font-size: 150%;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+footer {
+	text-align: center;
+	background-color: #DF4601;
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+	font-size: 90%;
+	padding: 5px;
+	clear: left;
+}
+
+figure a{
+	text-decoration: none;
+	color: black;
+}
+
+#blogi figure {
+	display: inline-block;
+	float: left;
+	width: 250;
+	margin: 10px 15px 5px 15px;
+	padding: 5px;
+	font-style: italic;
+}
+
+#maria_oma, #santtu_oma {
+	display: inline-block;
+	float: left;
+	width: 150px;
+	margin: 0px 15px 5px 15px;
+	padding: 0px 5px 5px 5px;
+}
+
+.hidden {
+	display: none;
+}
