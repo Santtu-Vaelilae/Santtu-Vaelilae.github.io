@@ -110,15 +110,20 @@ figure a{
 	display: none;
 }
 
-@media(max-width: 800px) {
+@media screen and (max-width: 600px) {
   body {
-    font-size: 200%;
+    font-size: 60px;
+    line-height: 1.5;
     }
 	nav ul {
 		margin: 0px;
 		list-style-type: none;
 		padding: 10px 0px 10px 5px;
 	}
+	nav ul li {
+		display: inline;
+		padding: 10px 20px 10px 20px;
+  }
 } 
 
 @media(min-width: 800px) {
