@@ -109,3 +109,17 @@ figure a{
 .hidden {
 	display: none;
 }
+
+@media(max-width: 800px) {
+  body {
+    font-size: 200%;
+    }
+	nav ul {
+		margin: 0px;
+		list-style-type: none;
+		padding: 10px 0px 10px 5px;
+	}
+} 
+
+@media(min-width: 800px) {
+}
