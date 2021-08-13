@@ -112,7 +112,7 @@ figure a{
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 180px;
+    font-size: 105%;
     line-height: 1.5;
     }
 	nav ul {
