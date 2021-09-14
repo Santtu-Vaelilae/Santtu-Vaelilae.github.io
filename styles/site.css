@@ -110,7 +110,7 @@ figure a{
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   body {
     font-size: 95%;
     line-height: 1.4;
@@ -119,6 +119,9 @@ figure a{
 		display: inline;
 		padding: 5px 7px 5px 7px;
 	  }
+	video {
+		width: 300;
+	}
 } 
 @media(min-width: 800px) {
 }
