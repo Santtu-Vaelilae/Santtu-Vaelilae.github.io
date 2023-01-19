@@ -1,0 +1,84 @@
+/* reset browser css default rules */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/********** General styling for all devices **********/
+
+body {
+    margin: 1%;
+    background-color: silver;
+    font-family: 'Roboto', sans-serif;
+}
+
+main > h1 {
+    text-align: center;
+    margin-bottom: 1.0rem;
+    font-size: 1.75rem;
+} 
+
+section {
+    position: relative;
+    border: 1px solid black;
+    float: left;
+    margin: 1%;
+    padding: 40px 1em 1em;
+    background-color: pink;
+}
+
+.title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    clear: both;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: silver; 
+}
+
+.title > h1 {
+    font-size: 1.25rem;
+}
+
+#chicken .title {
+    background-color: coral;
+}
+
+#beef .title {
+    background-color: red;
+    color: whitesmoke;
+}
+
+#sushi .title {
+    background-color: cornflowerblue;
+}
+
+/********** Desktop devices only **********/
+
+@media (min-width: 992px) {
+    section {
+        width: 31%;
+    }
+}
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #chicken, #beef {
+        width: 48%;
+    }
+
+    section #sushi {
+        width: 100%;
+    }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+    section {
+        width: 100;
+    }
+  
+}
