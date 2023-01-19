@@ -64,6 +64,7 @@ section {
         width: 31%;
     }
 }
+
 /********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
     #chicken, #beef {
