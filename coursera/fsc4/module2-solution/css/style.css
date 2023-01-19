@@ -79,6 +79,6 @@ section {
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
     section {
-        width: 100%;
+        max-width: 100%;
     }
 }
