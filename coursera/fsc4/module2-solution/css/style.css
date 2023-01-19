@@ -38,7 +38,6 @@ section {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     text-align: center;
-    background-color: silver; 
 }
 
 .title > h1 {
@@ -79,7 +78,6 @@ section {
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
     section {
-        width: 100;
+        width: 100%;
     }
-  
 }
